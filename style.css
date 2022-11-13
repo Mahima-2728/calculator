@@ -1,0 +1,46 @@
+body{
+    background-color: darksalmon;
+}
+
+.container{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid black;
+    border-left: burlywood;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+
+#displayAnswer{
+ width: 400px;
+height: 100px;
+background-color: cadetblue;
+color:aliceblue;
+text-align: right;
+font-size: 40px;
+margin-right: 10px;
+}
+
+.button{
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    height: 50px;
+    border: 0.5px solid #fff;
+    color: #FFFBC1;
+}
+
+#equals{
+background-color:royalblue;
+
+}
+
+#equals:hover{
+    background-color: turquoise;
+    color: floralwhite;
+    transition: 1s ease-in-out;
+}
